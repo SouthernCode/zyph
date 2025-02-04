@@ -1,18 +1,18 @@
 {
   "name": "zyph",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A dependency scanner that detects malicious code.",
   "main": "bin/cli.js",
-"scripts": {
-  "scan": "node bin/cli.js"
-},
+  "scripts": {
+    "scan": "node bin/cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SouthernCode/zyph-npm.git"
   },
   "bin": {
-  "zyph": "./bin/cli.js"
-  },  
+    "zyph": "./bin/cli.js"
+  },
   "keywords": [
     "malicious",
     "code",
