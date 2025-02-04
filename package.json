@@ -1,0 +1,48 @@
+{
+  "name": "zyph",
+  "version": "0.0.2",
+  "description": "A dependency scanner that detects malicious code.",
+  "main": "bin/cli.js",
+"scripts": {
+  "scan": "node bin/cli.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SouthernCode/zyph-scanner.git"
+  },
+  "bin": {
+  "zyph": "./bin/cli.js"
+  },  
+  "keywords": [
+    "malicious",
+    "code",
+    "security",
+    "dependency",
+    "scanner",
+    "npm",
+    "security",
+    "malware",
+    "detection",
+    "software",
+    "security",
+    "package",
+    "security",
+    "supply",
+    "chain",
+    "security",
+    "zyph",
+    "devsecops",
+    "open",
+    "source",
+    "security"
+  ],
+  "author": "Southern Code Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SouthernCode/zyph-scanner/issues"
+  },
+  "homepage": "https://github.com/SouthernCode/zyph-scanner#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
