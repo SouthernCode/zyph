@@ -1,6 +1,6 @@
 {
   "name": "zyph",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A dependency scanner that detects malicious code.",
   "main": "bin/cli.js",
   "scripts": {
@@ -52,6 +52,6 @@
   },
   "files": [
     "bin/cli.js",
-    "heuristics.js"
+    "bin/heuristics.js"
   ]
 }

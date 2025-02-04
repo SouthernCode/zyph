@@ -3,8 +3,8 @@
 const fs = require("fs");
 const path = require("path");
 const esprima = require("esprima");
-const chalk = require("chalk");
-const heuristics = require(path.join(__dirname, "../heuristics"));
+const chalk = require("chalk").default;
+const heuristics = require(path.join(__dirname, "heuristics"));
 
 const NODE_MODULES_PATH = path.join(process.cwd(), "node_modules");
 
