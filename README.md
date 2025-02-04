@@ -24,8 +24,8 @@ Zyph is an open-source dependency scanner designed to help developers secure the
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/SouthernCode/zyph-scanner.git
-cd zyph-scanner
+git clone https://github.com/SouthernCode/zyph-npm.git
+cd zyph-npm
 npm install
 ```
 
@@ -54,7 +54,7 @@ node bin/cli.js
 #### 3. Local npm Install
 
 ```bash
-npm install --save ../path/to/zyph-scanner
+npm install --save ../path/to/zyph-npm
 ```
 
 ## Usage
@@ -106,7 +106,7 @@ Zyph is licensed under the MIT License. See the [LICENSE](LICENSE) file for deta
 
 ## Support
 
-If you encounter any issues or have suggestions for improvements, please open an issue on our [GitHub repository](https://github.com/SouthernCode/zyph-scanner/issues).
+If you encounter any issues or have suggestions for improvements, please open an issue on our [GitHub repository](https://github.com/SouthernCode/zyph-npm/issues).
 
 ---
 
